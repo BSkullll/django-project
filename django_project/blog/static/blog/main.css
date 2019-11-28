@@ -16,6 +16,14 @@ h1, h2, h3, h4, h5, h6{
   margin-bottom: 20px;
 }
 
+.form-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+
+}
 .article-title {
   color: #444444;
 }
@@ -43,10 +51,20 @@ a.article-title:hover {
   padding-bottom: 1px;
 }
 */
+
 .author{
   margin-right: 8px;
   font-weight: bold;
   
+}
+
+.btnsign{
+  margin-left: 5px;
+}
+.new{
+  
+  margin-top: 12px;
+  margin-bottom: 0px;
 }
 
 .side-bar {
@@ -60,4 +78,33 @@ a.article-title:hover {
 .side-bar a:hover{
   color: #333;
   text-decoration: none;
+}
+
+/*Inheriting Btn */
+.outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .25s;
+}
+.btn-primary.outline {
+    color: #428bca;
+}
+.btn-success.outline {
+    color: #5cb85c;
+}
+.btn-info.outline {
+    color: #5bc0de;
+}
+.btn-warning.outline {
+    color: #f0ad4e;
+}
+.btn-danger.outline {
+    color: #d9534f;
+}
+.btn-primary.outline:hover,
+.btn-success.outline:hover,
+.btn-info.outline:hover,
+.btn-warning.outline:hover,
+.btn-danger.outline:hover {
+    color: #fff;
 }
