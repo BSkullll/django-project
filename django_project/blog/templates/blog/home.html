@@ -10,7 +10,7 @@
 					<hr class="hori">
 					
 				</div>
-				<h2><a href="" class="article-title">{{ post.title }}</a></h2>
+				<h2><a href="{% url 'post-detail' post.id %}" class="article-title">{{ post.title }}</a></h2>
 				<p class="article-content">{{ post.content }}</p>
 
 			</div>

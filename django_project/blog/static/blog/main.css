@@ -15,6 +15,10 @@ h1, h2, h3, h4, h5, h6{
   border-radius: 4px;
   margin-bottom: 20px;
 }
+.btnc{
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
 
 .form-section {
   background: #ffffff;
