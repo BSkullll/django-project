@@ -78,7 +78,9 @@ a.article-title:hover {
   border-radius: 10px;
   margin-bottom: 20px;
 }
-
+.list-post{
+  margin-bottom: 15px;
+}
 .side-bar a:hover{
   color: #333;
   text-decoration: none;

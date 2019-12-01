@@ -1,11 +1,12 @@
 {% extends 'blog/base.html' %}
 {% block body_block %}
+	<h2 class="list-post">Post by {{ view.kwargs.username }} ({{ page_obj.paginator.count}})</h2>
 	{% for post in posts %}
 		<article class="media content-section">
 			<img class="img-circle article-img col-md-2" src="{{ post.author.profile.image.url }}">
 			<div class="media-body">
 				<div class="article-metadata">
-					<a class="author " href="/user/{{post.author.username}}">{{ post.author }}</a>
+					<a class="author " href="{% url 'postss-users' post.author.username %}">{{ post.author }}</a>
 					<small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
 					<hr class="hori">
 					
