@@ -9,7 +9,8 @@ urlpatterns = [
 	url(r'^post/(?P<pk>\d+)/edit/$', views.PostUpdateView.as_view(), name='post-update'),
 	url(r'^post/(?P<pk>\d+)/delete/$', views.PostDeleteView.as_view(), name='post-delete'),
 	url(r'^about/$', views.about, name='blog-about'),
-
+	url(r'^announcements/$', views.announcements, name='announcements'),
+	url(r'^report_bug/$', views.bug_report, name='report_bug'),
 
 
 ]

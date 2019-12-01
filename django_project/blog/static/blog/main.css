@@ -86,6 +86,23 @@ a.article-title:hover {
   text-decoration: none;
 }
 
+.profile{
+  
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.head{
+  text-align: center;
+}
+
+.reset{
+  margin-left: 6px;
+}
+
 /*Inheriting Btn */
 .outline {
     background-color: transparent;

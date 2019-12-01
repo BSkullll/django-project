@@ -1,4 +1,21 @@
 {% extends 'blog/base.html' %}
 {% block body_block %}
-	<h1>About Page</h1>
+	
+	<article class="media content-section">
+		<img class="img-circle profile" src="{{user.profile.url}}">
+		<div class="media-body">
+			<div class="article-metadata">
+				<h2 class="head">{{ user.first_name }}  {{ user.last_name }}</h2>
+				<small class="text-muted"></small>
+				<hr class="hori">
+				
+			</div>
+			<!-- <h2><a href="" class="article-title">{{ post.title }}</a></h2> -->
+			<h4 class="article-content">{{user.description}}</h4>
+
+		</div>
+	</article>
+		
+	
+	
 {% endblock %}
